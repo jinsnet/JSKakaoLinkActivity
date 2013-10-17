@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35E9FBBF180F861400D32A1C /* icon_kakaotalk_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FBB9180F861400D32A1C /* icon_kakaotalk_ios7@2x.png */; };
+		35E9FBC0180F861400D32A1C /* icon_kakaotalk_ios7@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FBBA180F861400D32A1C /* icon_kakaotalk_ios7@2x~ipad.png */; };
+		35E9FBC1180F861400D32A1C /* icon_kakaotalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FBBB180F861400D32A1C /* icon_kakaotalk.png */; };
+		35E9FBC2180F861400D32A1C /* icon_kakaotalk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FBBC180F861400D32A1C /* icon_kakaotalk@2x.png */; };
+		35E9FBC3180F861400D32A1C /* icon_kakaotalk@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FBBD180F861400D32A1C /* icon_kakaotalk@2x~ipad.png */; };
+		35E9FBC4180F861400D32A1C /* icon_kakaotalk~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E9FBBE180F861400D32A1C /* icon_kakaotalk~ipad.png */; };
+		35ECFD16180ED90C00909871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35ECFD15180ED90C00909871 /* Foundation.framework */; };
+		35ECFD18180ED90C00909871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35ECFD17180ED90C00909871 /* CoreGraphics.framework */; };
+		35ECFD1A180ED90C00909871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35ECFD19180ED90C00909871 /* UIKit.framework */; };
+		35ECFD20180ED90C00909871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD1E180ED90C00909871 /* InfoPlist.strings */; };
+		35ECFD22180ED90C00909871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ECFD21180ED90C00909871 /* main.m */; };
+		35ECFD26180ED90C00909871 /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ECFD25180ED90C00909871 /* JSAppDelegate.m */; };
+		35ECFD29180ED90C00909871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD27180ED90C00909871 /* Main.storyboard */; };
+		35ECFD2C180ED90C00909871 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ECFD2B180ED90C00909871 /* JSViewController.m */; };
+		35ECFD2E180ED90C00909871 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD2D180ED90C00909871 /* Images.xcassets */; };
+		35ECFD56180EDBD500909871 /* icon_kakaostory.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD4D180EDBD500909871 /* icon_kakaostory.png */; };
+		35ECFD57180EDBD500909871 /* icon_kakaostory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD4E180EDBD500909871 /* icon_kakaostory@2x.png */; };
+		35ECFD58180EDBD500909871 /* icon_kakaostory@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD4F180EDBD500909871 /* icon_kakaostory@2x~ipad.png */; };
+		35ECFD59180EDBD500909871 /* icon_kakaostory_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD50180EDBD500909871 /* icon_kakaostory_ios7@2x.png */; };
+		35ECFD5A180EDBD500909871 /* icon_kakaostory_ios7@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD51180EDBD500909871 /* icon_kakaostory_ios7@2x~ipad.png */; };
+		35ECFD5B180EDBD500909871 /* icon_kakaostory~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ECFD52180EDBD500909871 /* icon_kakaostory~ipad.png */; };
+		35ECFD5C180EDBD500909871 /* JSKakaoStoryActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ECFD54180EDBD500909871 /* JSKakaoStoryActivity.m */; };
+		35ECFD84180EDC2F00909871 /* KakaoLinkCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ECFD83180EDC2F00909871 /* KakaoLinkCenter.m */; };
+		35ECFD8C180EE08C00909871 /* JSKakaoTalkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ECFD89180EE08C00909871 /* JSKakaoTalkActivity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35E9FBB9180F861400D32A1C /* icon_kakaotalk_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaotalk_ios7@2x.png"; sourceTree = "<group>"; };
+		35E9FBBA180F861400D32A1C /* icon_kakaotalk_ios7@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaotalk_ios7@2x~ipad.png"; sourceTree = "<group>"; };
+		35E9FBBB180F861400D32A1C /* icon_kakaotalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_kakaotalk.png; sourceTree = "<group>"; };
+		35E9FBBC180F861400D32A1C /* icon_kakaotalk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaotalk@2x.png"; sourceTree = "<group>"; };
+		35E9FBBD180F861400D32A1C /* icon_kakaotalk@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaotalk@2x~ipad.png"; sourceTree = "<group>"; };
+		35E9FBBE180F861400D32A1C /* icon_kakaotalk~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaotalk~ipad.png"; sourceTree = "<group>"; };
+		35ECFD12180ED90C00909871 /* JSKakaoLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSKakaoLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35ECFD15180ED90C00909871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35ECFD17180ED90C00909871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35ECFD19180ED90C00909871 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35ECFD1D180ED90C00909871 /* JSKakaoLink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSKakaoLink-Info.plist"; sourceTree = "<group>"; };
+		35ECFD1F180ED90C00909871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35ECFD21180ED90C00909871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35ECFD23180ED90C00909871 /* JSKakaoLink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSKakaoLink-Prefix.pch"; sourceTree = "<group>"; };
+		35ECFD24180ED90C00909871 /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		35ECFD25180ED90C00909871 /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		35ECFD28180ED90C00909871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35ECFD2A180ED90C00909871 /* JSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		35ECFD2B180ED90C00909871 /* JSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		35ECFD2D180ED90C00909871 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35ECFD4D180EDBD500909871 /* icon_kakaostory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_kakaostory.png; sourceTree = "<group>"; };
+		35ECFD4E180EDBD500909871 /* icon_kakaostory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaostory@2x.png"; sourceTree = "<group>"; };
+		35ECFD4F180EDBD500909871 /* icon_kakaostory@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaostory@2x~ipad.png"; sourceTree = "<group>"; };
+		35ECFD50180EDBD500909871 /* icon_kakaostory_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaostory_ios7@2x.png"; sourceTree = "<group>"; };
+		35ECFD51180EDBD500909871 /* icon_kakaostory_ios7@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaostory_ios7@2x~ipad.png"; sourceTree = "<group>"; };
+		35ECFD52180EDBD500909871 /* icon_kakaostory~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_kakaostory~ipad.png"; sourceTree = "<group>"; };
+		35ECFD53180EDBD500909871 /* JSKakaoStoryActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKakaoStoryActivity.h; sourceTree = "<group>"; };
+		35ECFD54180EDBD500909871 /* JSKakaoStoryActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKakaoStoryActivity.m; sourceTree = "<group>"; };
+		35ECFD82180EDC2F00909871 /* KakaoLinkCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KakaoLinkCenter.h; path = ../../kakaolink/KakaoLinkCenter.h; sourceTree = "<group>"; };
+		35ECFD83180EDC2F00909871 /* KakaoLinkCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KakaoLinkCenter.m; path = ../../kakaolink/KakaoLinkCenter.m; sourceTree = "<group>"; };
+		35ECFD88180EE08C00909871 /* JSKakaoTalkActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKakaoTalkActivity.h; sourceTree = "<group>"; };
+		35ECFD89180EE08C00909871 /* JSKakaoTalkActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKakaoTalkActivity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35ECFD0F180ED90C00909871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ECFD18180ED90C00909871 /* CoreGraphics.framework in Frameworks */,
+				35ECFD1A180ED90C00909871 /* UIKit.framework in Frameworks */,
+				35ECFD16180ED90C00909871 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35ECFD09180ED90C00909871 = {
+			isa = PBXGroup;
+			children = (
+				35ECFD1B180ED90C00909871 /* JSKakaoLink */,
+				35ECFD81180EDC0600909871 /* kakaolink */,
+				35ECFD14180ED90C00909871 /* Frameworks */,
+				35ECFD13180ED90C00909871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35ECFD13180ED90C00909871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35ECFD12180ED90C00909871 /* JSKakaoLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35ECFD14180ED90C00909871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35ECFD15180ED90C00909871 /* Foundation.framework */,
+				35ECFD17180ED90C00909871 /* CoreGraphics.framework */,
+				35ECFD19180ED90C00909871 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35ECFD1B180ED90C00909871 /* JSKakaoLink */ = {
+			isa = PBXGroup;
+			children = (
+				35ECFD24180ED90C00909871 /* JSAppDelegate.h */,
+				35ECFD25180ED90C00909871 /* JSAppDelegate.m */,
+				35ECFD27180ED90C00909871 /* Main.storyboard */,
+				35ECFD2A180ED90C00909871 /* JSViewController.h */,
+				35ECFD2B180ED90C00909871 /* JSViewController.m */,
+				35ECFD2D180ED90C00909871 /* Images.xcassets */,
+				35ECFD1C180ED90C00909871 /* Supporting Files */,
+				35ECFD4B180EDBD500909871 /* KakaoActivity */,
+			);
+			path = JSKakaoLink;
+			sourceTree = "<group>";
+		};
+		35ECFD1C180ED90C00909871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35ECFD1D180ED90C00909871 /* JSKakaoLink-Info.plist */,
+				35ECFD1E180ED90C00909871 /* InfoPlist.strings */,
+				35ECFD21180ED90C00909871 /* main.m */,
+				35ECFD23180ED90C00909871 /* JSKakaoLink-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35ECFD4B180EDBD500909871 /* KakaoActivity */ = {
+			isa = PBXGroup;
+			children = (
+				35ECFD4C180EDBD500909871 /* KakaoStoryActivity */,
+				35ECFD55180EDBD500909871 /* KakaoTalkActivity */,
+			);
+			name = KakaoActivity;
+			path = ../../../KakaoActivity;
+			sourceTree = "<group>";
+		};
+		35ECFD4C180EDBD500909871 /* KakaoStoryActivity */ = {
+			isa = PBXGroup;
+			children = (
+				35ECFD4D180EDBD500909871 /* icon_kakaostory.png */,
+				35ECFD4E180EDBD500909871 /* icon_kakaostory@2x.png */,
+				35ECFD4F180EDBD500909871 /* icon_kakaostory@2x~ipad.png */,
+				35ECFD50180EDBD500909871 /* icon_kakaostory_ios7@2x.png */,
+				35ECFD51180EDBD500909871 /* icon_kakaostory_ios7@2x~ipad.png */,
+				35ECFD52180EDBD500909871 /* icon_kakaostory~ipad.png */,
+				35ECFD53180EDBD500909871 /* JSKakaoStoryActivity.h */,
+				35ECFD54180EDBD500909871 /* JSKakaoStoryActivity.m */,
+			);
+			path = KakaoStoryActivity;
+			sourceTree = "<group>";
+		};
+		35ECFD55180EDBD500909871 /* KakaoTalkActivity */ = {
+			isa = PBXGroup;
+			children = (
+				35E9FBB9180F861400D32A1C /* icon_kakaotalk_ios7@2x.png */,
+				35E9FBBA180F861400D32A1C /* icon_kakaotalk_ios7@2x~ipad.png */,
+				35E9FBBB180F861400D32A1C /* icon_kakaotalk.png */,
+				35E9FBBC180F861400D32A1C /* icon_kakaotalk@2x.png */,
+				35E9FBBD180F861400D32A1C /* icon_kakaotalk@2x~ipad.png */,
+				35E9FBBE180F861400D32A1C /* icon_kakaotalk~ipad.png */,
+				35ECFD88180EE08C00909871 /* JSKakaoTalkActivity.h */,
+				35ECFD89180EE08C00909871 /* JSKakaoTalkActivity.m */,
+			);
+			path = KakaoTalkActivity;
+			sourceTree = "<group>";
+		};
+		35ECFD81180EDC0600909871 /* kakaolink */ = {
+			isa = PBXGroup;
+			children = (
+				35ECFD82180EDC2F00909871 /* KakaoLinkCenter.h */,
+				35ECFD83180EDC2F00909871 /* KakaoLinkCenter.m */,
+			);
+			name = kakaolink;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35ECFD11180ED90C00909871 /* JSKakaoLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35ECFD44180ED90C00909871 /* Build configuration list for PBXNativeTarget "JSKakaoLink" */;
+			buildPhases = (
+				35ECFD0E180ED90C00909871 /* Sources */,
+				35ECFD0F180ED90C00909871 /* Frameworks */,
+				35ECFD10180ED90C00909871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSKakaoLink;
+			productName = JSKakaoLink;
+			productReference = 35ECFD12180ED90C00909871 /* JSKakaoLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35ECFD0A180ED90C00909871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = JinS;
+			};
+			buildConfigurationList = 35ECFD0D180ED90C00909871 /* Build configuration list for PBXProject "JSKakaoLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35ECFD09180ED90C00909871;
+			productRefGroup = 35ECFD13180ED90C00909871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35ECFD11180ED90C00909871 /* JSKakaoLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35ECFD10180ED90C00909871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E9FBC1180F861400D32A1C /* icon_kakaotalk.png in Resources */,
+				35E9FBC4180F861400D32A1C /* icon_kakaotalk~ipad.png in Resources */,
+				35ECFD2E180ED90C00909871 /* Images.xcassets in Resources */,
+				35E9FBC3180F861400D32A1C /* icon_kakaotalk@2x~ipad.png in Resources */,
+				35ECFD57180EDBD500909871 /* icon_kakaostory@2x.png in Resources */,
+				35E9FBC0180F861400D32A1C /* icon_kakaotalk_ios7@2x~ipad.png in Resources */,
+				35ECFD58180EDBD500909871 /* icon_kakaostory@2x~ipad.png in Resources */,
+				35ECFD20180ED90C00909871 /* InfoPlist.strings in Resources */,
+				35ECFD5A180EDBD500909871 /* icon_kakaostory_ios7@2x~ipad.png in Resources */,
+				35ECFD56180EDBD500909871 /* icon_kakaostory.png in Resources */,
+				35ECFD29180ED90C00909871 /* Main.storyboard in Resources */,
+				35E9FBC2180F861400D32A1C /* icon_kakaotalk@2x.png in Resources */,
+				35E9FBBF180F861400D32A1C /* icon_kakaotalk_ios7@2x.png in Resources */,
+				35ECFD59180EDBD500909871 /* icon_kakaostory_ios7@2x.png in Resources */,
+				35ECFD5B180EDBD500909871 /* icon_kakaostory~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35ECFD0E180ED90C00909871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ECFD22180ED90C00909871 /* main.m in Sources */,
+				35ECFD84180EDC2F00909871 /* KakaoLinkCenter.m in Sources */,
+				35ECFD2C180ED90C00909871 /* JSViewController.m in Sources */,
+				35ECFD26180ED90C00909871 /* JSAppDelegate.m in Sources */,
+				35ECFD5C180EDBD500909871 /* JSKakaoStoryActivity.m in Sources */,
+				35ECFD8C180EE08C00909871 /* JSKakaoTalkActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35ECFD1E180ED90C00909871 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35ECFD1F180ED90C00909871 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35ECFD27180ED90C00909871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35ECFD28180ED90C00909871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35ECFD42180ED90C00909871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35ECFD43180ED90C00909871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35ECFD45180ED90C00909871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSKakaoLink/JSKakaoLink-Prefix.pch";
+				INFOPLIST_FILE = "JSKakaoLink/JSKakaoLink-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35ECFD46180ED90C00909871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSKakaoLink/JSKakaoLink-Prefix.pch";
+				INFOPLIST_FILE = "JSKakaoLink/JSKakaoLink-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35ECFD0D180ED90C00909871 /* Build configuration list for PBXProject "JSKakaoLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ECFD42180ED90C00909871 /* Debug */,
+				35ECFD43180ED90C00909871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35ECFD44180ED90C00909871 /* Build configuration list for PBXNativeTarget "JSKakaoLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ECFD45180ED90C00909871 /* Debug */,
+				35ECFD46180ED90C00909871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35ECFD0A180ED90C00909871 /* Project object */;
+}

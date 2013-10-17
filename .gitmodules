@@ -1,0 +1,3 @@
+[submodule "kakaolink"]
+	path = kakaolink
+	url = https://jinsnet@github.com/jinsnet/kakaolink-ios.git
